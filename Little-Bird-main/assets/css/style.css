@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #FF8C00;
+  background: #9932CC;
   color: #fff;
 }
 .back-to-top.active {
@@ -558,16 +558,17 @@ section {
 }
 .counts .count-box {
   width: 100%;
-  text-align: center;
+  align-content:center;
 }
 .counts .count-box span {
   font-size: 48px;
   line-height: 48px;
   display: block;
   font-weight: 700;
-  color: #FF8C00;
+  color: #9932CC;
   margin-left: 80px;
   margin: auto;
+  align-content:center;
 }
 .counts .count-box p {
   padding: 8px 0 0 0;
@@ -575,6 +576,7 @@ section {
   font-weight: 600;
   font-size: 14px;
   color: Black;
+  align-content:center;
 }
 
 /*--------------------------------------------------------------
@@ -1618,7 +1620,7 @@ select  {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #FF8C00;
+  color: #9932CC;
   font-size: 18px;
   line-height: 1;
 }
@@ -1769,4 +1771,11 @@ button.accordion-button:not(.collapsed) {
 }
 .textfield:focus {
 	background: #FBF8D2;
+}
+.form{
+  text-align: center;
+}
+.sumbitt{
+  text-align: center;
+  color:#9932CC;
 }
