@@ -305,14 +305,14 @@
     }
 
     function clearEmail(){
-      if(document.getElementById('emailField').value == 'Example: johndoe123@gmail.com'){
+      if(document.getElementById('emailField').value == ''){
         document.getElementById('emailField').value = '';
       }
     }
 
     function resetEmail(){
       if(document.getElementById('emailField').value == ''){
-        document.getElementById('emailField').value = 'Example: johndoe123@gmail.com';
+        document.getElementById('emailField').value = '';
       }
     }
 
